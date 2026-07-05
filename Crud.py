@@ -324,7 +324,9 @@ def popular_banco():
         
         print("Banco populado com sucesso")
 
-genai.configure(api_key="AQ.Ab8RN6L55mhed0YKsK-yifMZBI56adL95NgTbA4ONOstrq1QxQ")
+# chave api removida por questões de privacidade
+
+genai.configure(api_key="abc")
 
 def llm_ia():
 
