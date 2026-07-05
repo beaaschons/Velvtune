@@ -5,8 +5,7 @@ import google.generativeai as genai
 import psycopg2
 
 engine = create_engine(
-    "postgresql+psycopg2://postgres:060806@localhost:5432/Velvtune", pool_pre_ping=True
-)
+    "postgresql+psycopg2://postgres:060806@localhost:5432/Velvtune", pool_pre_ping=True)
 
 def executar(sql, params=None):
     try:
