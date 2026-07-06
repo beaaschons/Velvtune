@@ -16,8 +16,9 @@ def executar(sql, params=None):
             else:
                 conn.execute(text(sql))
         print("Operação realizada com sucesso!")
-    except Exception as e: import traceback
-    traceback.print_exc()
+    except Exception as e:
+        import traceback
+        traceback.print_exc()
 
 def listar(tabela, ordem=None):
     try:
